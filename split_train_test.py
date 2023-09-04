@@ -66,7 +66,6 @@ def script_main(
         cwd = ROOT.gDirectory
 
         logger.info(f'Processing file {file.name}')
-        continue
 
         infile = ROOT.TFile(str(file), "READ")
         intree = infile.Get(tree_name)
