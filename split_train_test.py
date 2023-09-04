@@ -54,6 +54,10 @@ def script_main(
         if not file.suffix == ".root":
             continue
 
+        # Skip not data files
+        if file.name == "puWeights.root":
+            continue
+
         # Skip data samples
         if file.name[:4] == "Data":
             logger.info(f'Skipping data file {file.name}')
