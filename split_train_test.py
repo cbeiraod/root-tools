@@ -83,13 +83,13 @@ def script_main(
         train_file = ROOT.TFile(str(train_path / file.name), "RECREATE")
         train_tree = intree.CloneTree(0)
         intree.CopyAddresses(train_tree)
-        train_split_weight = array('d', [ float(train_factor + test_factor)/float(train_factor) ])
+        train_split_weight = array('f', [ float(train_factor + test_factor)/float(train_factor) ])
         train_tree.SetBranchAddress('splitFactor', train_split_weight)
 
         test_file = ROOT.TFile(str(test_path / file.name), "RECREATE")
         test_tree = intree.CloneTree(0)
         intree.CopyAddresses(test_tree)
-        test_split_weight = array('d', [ float(train_factor + test_factor)/float(test_factor) ])
+        test_split_weight = array('f', [ float(train_factor + test_factor)/float(test_factor) ])
         test_tree.SetBranchAddress('splitFactor', test_split_weight)
 
         cwd.cd()
