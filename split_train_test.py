@@ -47,7 +47,6 @@ def script_main(
 
     train_probability = float(train_factor) / float(train_factor + test_factor)  # Events are either train or test, there is no other category possible
 
-    i = 0
     for file in input_path.iterdir():
         if not file.is_file():
             continue
@@ -114,11 +113,6 @@ def script_main(
         infile.Close()
 
         cwd.cd()
-
-        if i == 2:
-            break
-        i += 1
-
 
 def main():
     import argparse
