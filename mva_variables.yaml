@@ -1,0 +1,14 @@
+---
+ variables:
+   - Jet1Pt
+   - mt
+   - Met
+   - LepChg
+   - LepEta
+   - LepPt
+   - HT
+   - NbLoose
+   - Njet
+   - JetHBpt
+   - DrJetHBLep
+   - JetHBCSV

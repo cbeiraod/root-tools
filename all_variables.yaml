@@ -1,0 +1,32 @@
+---
+ variables:
+   - Jet1Pt
+   - mt
+   - Met
+   - LepChg
+   - LepEta
+   - LepPt
+   - HT
+   - NbLoose
+   - Njet
+   - JetHBpt
+   - DrJetHBLep
+   - JetHBCSV
+   - LepID
+   - LepDxy
+   - LepDz
+   #- LepIso
+   - Q80
+   - CosDeltaPhi
+   - NbTight
+   - Jet1Eta
+   - Jet2Pt
+   - Jet2Eta
+   - DrJet1Lep
+   - DrJet2Lep
+   - DrJet1Jet2
+   - JetLepMass
+   - J3Mass
+   - XS
+   - Event
+   - Nevt
