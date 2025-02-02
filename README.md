@@ -13,6 +13,7 @@ Then install the dependencies, such as natsort:
 
 ```
 python -m pip install natsort
+python -m pip install pyyaml
 ```
 
 On macOS, we need to "re-enable" ROOT inside the venv. On my system, using zsh, I had to run the following command:
