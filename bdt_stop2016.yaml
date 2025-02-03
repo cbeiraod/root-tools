@@ -1,0 +1,121 @@
+---
+ BDT10:
+   weights: weights_bdt10/TMVAClassification_BDT.weights.xml
+   variables:
+     - Jet1Pt
+     - mt
+     - Met
+     - LepChg
+     - LepEta
+     - LepPt
+     - HT
+     - NbLoose
+     - Njet
+     - JetHBpt
+     - DrJetHBLep
+     - JetHBCSV
+ BDT20:
+   weights: weights_bdt20/TMVAClassification_BDT.weights.xml
+   variables:
+     - Jet1Pt
+     - mt
+     - Met
+     - LepChg
+     - LepEta
+     - LepPt
+     - HT
+     - NbLoose
+     - Njet
+     - JetHBpt
+     - DrJetHBLep
+     - JetHBCSV
+ BDT30:
+   weights: weights_bdt30/TMVAClassification_BDT.weights.xml
+   variables:
+     - Jet1Pt
+     - mt
+     - Met
+     - LepChg
+     - LepEta
+     - LepPt
+     - HT
+     - NbLoose
+     - Njet
+     - JetHBpt
+     - DrJetHBLep
+     - JetHBCSV
+ BDT40:
+   weights: weights_bdt40/TMVAClassification_BDT.weights.xml
+   variables:
+     - Jet1Pt
+     - mt
+     - Met
+     - LepChg
+     - LepEta
+     - LepPt
+     - HT
+     - NbLoose
+     - Njet
+     - JetHBpt
+     - DrJetHBLep
+     - JetHBCSV
+ BDT50:
+   weights: weights_bdt50/TMVAClassification_BDT.weights.xml
+   variables:
+     - Jet1Pt
+     - mt
+     - Met
+     - LepChg
+     - LepEta
+     - LepPt
+     - HT
+     - NbLoose
+     - Njet
+     - JetHBpt
+     - DrJetHBLep
+     - JetHBCSV
+ BDT60:
+   weights: weights_bdt60/TMVAClassification_BDT.weights.xml
+   variables:
+     - Jet1Pt
+     - mt
+     - Met
+     - LepChg
+     - LepEta
+     - LepPt
+     - HT
+     - NbLoose
+     - Njet
+     - JetHBpt
+     - DrJetHBLep
+     - JetHBCSV
+ BDT70:
+   weights: weights_bdt70/TMVAClassification_BDT.weights.xml
+   variables:
+     - Jet1Pt
+     - mt
+     - Met
+     - LepChg
+     - LepEta
+     - LepPt
+     - HT
+     - NbLoose
+     - Njet
+     - JetHBpt
+     - DrJetHBLep
+     - JetHBCSV
+ BDT80:
+   weights: weights_bdt80/TMVAClassification_BDT.weights.xml
+   variables:
+     - Jet1Pt
+     - mt
+     - Met
+     - LepChg
+     - LepEta
+     - LepPt
+     - HT
+     - NbLoose
+     - Njet
+     - JetHBpt
+     - DrJetHBLep
+     - JetHBCSV
