@@ -1,0 +1,189 @@
+---
+ input_ttree: bdttree
+ output_ttree: data
+ filter: False
+ seed: 42
+ do_reinterpret: True
+ branches:
+   Run:
+     rename: False
+   Event:
+     rename: False
+   LumiSec:
+     rename: False
+   Nevt:
+     rename: False
+   XS:
+     rename: False
+   nVert:
+     rename: False
+   weight:
+     rename: False
+
+   #genStopM:
+   #  rename: False
+   #genNeutralinoM:
+   #  rename: False
+   genWeight:
+     rename: False
+   sumGenWeight:
+     rename: False
+
+   #isTight:
+   #  rename: False
+   #isLoose:
+   #  rename: False
+   #isLooseNotTight:
+   #  rename: False
+   #isPrompt:
+   #  rename: False
+   LepID:
+     rename: False
+   LepChg:
+     rename: False
+   LepPt:
+     rename: False
+   LepEta:
+     rename: False
+   LepDxy:
+     rename: False
+   LepDz:
+     rename: False
+   LepIso03:
+     rename: LepIso
+   #LepHybIso03:
+   #  rename: LepHybIso
+   Lep2ID:
+     rename: False
+     reinterpret: 0  # Reinterpret the -10000 entries to this value
+   Lep2Chg:
+     rename: False
+     reinterpret: 0  # Reinterpret the -10000 entries to this value
+   Lep2Pt:
+     rename: False
+     reinterpret: -50  # Reinterpret the -10000 entries to this value
+   Lep2Eta:
+     rename: False
+     reinterpret: -5  # Reinterpret the -10000 entries to this value
+   Lep2Dxy:
+     rename: False
+     reinterpret: -1  # Reinterpret the -10000 entries to this value
+   Lep2Dz:
+     rename: False
+     reinterpret: -1  # Reinterpret the -10000 entries to this value
+   Lep2Iso03:
+     rename: Lep2Iso
+     reinterpret: -1  # Reinterpret the -10000 entries to this value
+   nGoodMu:
+     rename: False
+   nGoodEl:
+     rename: False
+
+   Met:
+     rename: False
+   mt:
+     rename: False
+   Q80:
+     rename: False
+   CosDeltaPhi:
+     rename: False
+
+   #nIsr:  # Seems to be a MC quantity
+   #  rename: nISR
+   Njet:
+     rename: False
+   Njet30:
+     rename: False
+   #Njet40:
+   #  rename: False
+   Njet50:
+     rename: False
+   #Njet60:
+   #  rename: False
+   #Njet70:
+   #  rename: False
+   Njet80:
+     rename: False
+   #Njet90:
+   #  rename: False
+   Njet100:
+     rename: False
+   Jet1Pt:
+     rename: False
+   Jet1Eta:
+     rename: False
+   Jet1CSV:
+     rename: False
+   Jet2Pt:
+     rename: False
+     reinterpret: -50  # Reinterpret the -10000 entries to this value
+   Jet2Eta:
+     rename: False
+     reinterpret: -5  # Reinterpret the -10000 entries to this value
+   Jet2CSV:
+     rename: False
+     reinterpret: -15  # Reinterpret the -10000 entries to this value
+   Jet3Pt:
+     rename: False
+     reinterpret: -50  # Reinterpret the -10000 entries to this value
+   Jet3Eta:
+     rename: False
+     reinterpret: -5  # Reinterpret the -10000 entries to this value
+   Jet3CSV:
+     rename: False
+     reinterpret: -15  # Reinterpret the -10000 entries to this value
+   DPhiJet1Jet2:
+     rename: False
+     reinterpret: -5  # Reinterpret the -10000 entries to this value
+   HT:
+     rename: False
+   NbLoose:
+     rename: False
+   NbTight:
+     rename: False
+   NbLooseTo50:
+     rename: False
+   NbLoose50:
+     rename: False
+   #NbMediumTo50:
+   #  rename: False
+   #NbMedium50:
+   #  rename: False
+   NbTightTo50:
+     rename: False
+   NbTight50:
+     rename: False
+   JetHBpt:
+     rename: False
+   JetHBeta:
+     rename: False
+   #JetHBindex:
+   #  rename: False
+   JetHBCSV:
+     rename: False
+   JetB2pt:
+     rename: False
+     reinterpret: -50  # Reinterpret the -10000 entries to this value
+   JetB2eta:
+     rename: False
+     reinterpret: -5  # Reinterpret the -10000 entries to this value
+   #JetB2index:
+   #  rename: False
+   JetB2CSV:
+     rename: False
+     reinterpret: -15  # Reinterpret the -10000 entries to this value
+
+   DrJet1Lep:
+     rename: False
+   DrJet2Lep:
+     rename: False
+     reinterpret: -1  # Reinterpret the -10000 entries to this value
+   DrJetHBLep:
+     rename: False
+   DrJet1Jet2:
+     rename: False
+     reinterpret: -1  # Reinterpret the -10000 entries to this value
+   JetLepMass:
+     rename: False
+   J3Mass:
+     rename: False
