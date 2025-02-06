@@ -155,7 +155,7 @@ def script_main(
         evtCount = 0
         for evt in range(orig_events):
             if evtCount%1000 == 0:
-                print(f"Processing event {evtCount}")
+                logger.debug(f"Processing event {evtCount}")
             evtCount += 1
             intree.GetEntry(evt)
 
@@ -192,9 +192,6 @@ def script_main(
         infile.Close()
 
         cwd.cd()
-
-        if not fileNotSplit:
-            break
 
 def main():
     import argparse
